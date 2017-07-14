@@ -1,0 +1,8 @@
+Candy Bar, 500
+Chips, 500
+Paperback Book, 700
+Detergent, 1000
+Gum, 1100
+Headphones, 1400
+Earmuffs, 2000
+Bluetooth Stereo, 6000

@@ -77,7 +77,6 @@ def find_items3(budget, registry, prices):
 	if len(totals) > 0:
 		totals = sorted(totals)
 		pmax = totals[len(totals) - 1] 
-		print pmax
 		return totals_dict[pmax]
 	return None
 
@@ -101,8 +100,8 @@ def read_file(file_name, budget, registry, prices):
 				return
 
 file_name = sys.argv[1]
-budget = int(sys.argv[2])
-number_of_items = int(sys.argv[3])
+budget = int(sys.argv[3])
+number_of_items = int(sys.argv[2])
 registry = {}
 prices = []
 read_file(file_name, budget, registry, prices)
